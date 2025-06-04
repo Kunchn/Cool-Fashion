@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolmate fake - Thời trang thể thao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Coolmate Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#male-products">Nam</a></li>
+                    <li><a href="#female-products">Nữ</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                    <li><a href="login.html">Đăng nhập</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="slider-container">
+        <div class="slides">
+            <div class="slide active">
+                <img src="images/banner1.webp" alt="Banner 1">
+            </div>
+            <div class="slide">
+                <img src="images/banner2.webp" alt="Banner 2">
+            </div>
+            <div class="slide">
+                <img src="images/banner3.webp" alt="Banner 3">
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="male-products" class="product-section">
+            <h2>Sản phẩm Nam</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/products/male/Ao-tanktop-nam-mac-trong-anti-smell-Navy_5.webp" alt="Áo Tanktop Nam">
+                    <h3>Áo Tanktop Anti-Smell</h3>
+                    <p>Navy</p>
+                </div>
+                <div class="product-item">
+                    <img src="/images/products/male/quan-shorts-summer-cool-7-inch-2-lop-__-_Xanh_nhat_6.webp" alt="Quần Shorts Nam">
+                    <h3>Quần Shorts Summer Cool</h3>
+                    <p>Xanh Nhạt</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/male/t-shirt-the-thao-nam-flexline-active-v-neck--Navy_5.webp" alt="T-shirt Thể Thao Nam">
+                    <h3>T-shirt Flexline V-neck</h3>
+                    <p>Navy</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/male/t-shirt-the-thao-nam-flexline-active-Xanh_bong_dem_7.webp" alt="T-shirt Thể Thao Nam">
+                    <h3>T-shirt Flexline Active</h3>
+                    <p>Xanh Bóng Đêm</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/male/t-shirt-the-thao-nam-promax-sideflow-v-neck-2-xanh-bong-dem_89.webp" alt="T-shirt Thể Thao Nam">
+                    <h3>T-shirt Promax Sideflow</h3>
+                    <p>Xanh Bóng Đêm</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="female-products" class="product-section">
+            <h2>Sản phẩm Nữ</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/products/female/ao-croptop-pickleball-dink-shot-9-den_79.webp" alt="Áo Croptop Nữ">
+                    <h3>Áo Croptop Pickleball</h3>
+                    <p>Đen</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/female/ao-polo-nu-pickleball-baseline3-den_64.webp" alt="Áo Polo Nữ">
+                    <h3>Áo Polo Pickleball</h3>
+                    <p>Đen</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/female/combo-singlet-bra-14-den_71.webp" alt="Combo Singlet Bra">
+                    <h3>Combo Singlet Bra</h3>
+                    <p>Đen</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/female/legging-yoga-ribbed-33292-den_26.webp" alt="Legging Yoga Nữ">
+                    <h3>Legging Yoga Ribbed</h3>
+                    <p>Đen</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/female/quan-shorts-yoga-ribbed-33-be_21.webp" alt="Quần Shorts Yoga Nữ">
+                    <h3>Quần Shorts Yoga Ribbed</h3>
+                    <p>Be</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="about">
+         <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Về Coolmate</h4>
+                <ul>
+                    <li><a href="#">Quy tắc ứng xử của Coolmate</a></li>
+                    <li><a href="#">Coolmate 101</a></li>
+                    <li><a href="#">DVKH xuất sắc</a></li>
+                    <li><a href="#">Câu chuyện về Coolmate</a></li>
+                    <li><a href="#">Nhà máy</a></li>
+                    <li><a href="#">Care & Share</a></li>
+                    <li><a href="#">Cam kết bền vững</a></li>
+                    <li><a href="#">Tầm nhìn 2030</a></li>
+                </ul>
+            </div>
+            <div id="contact" class="footer-col">
+                <h4>Địa chỉ liên hệ</h4>
+                <p><strong>Văn phòng Hà Nội:</strong> Tầng 3 Tòa nhà BMM, KM2, Đường Phùng Hưng, Phường Phúc La, Quận Hà Đông, TP Hà Nội</p>
+                <p><strong>Trung tâm vận hành Hà Nội:</strong> Lô C8, KCN Lại Yên, Xã Lại Yên, Huyện Hoài Đức, Thành phố Hà Nội</p>
+                <p><strong>Văn phòng và Trung tâm vận hành TP. HCM:</strong> Lô C3, đường D2, KCN Cát Lái, Thạnh Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh.</p>
+                <p><strong>Trung tâm R&D:</strong> T6-01, The Manhattan Vinhomes Grand Park, Long Bình, TP. Thủ Đức</p>
+            </div>
+            <div class="footer-col">
+                <h4>Theo dõi chúng tôi</h4>
+                <div class="social-links">
+                     <a href="#">Facebook</a>
+                     <a href="#">Instagram</a>
+                     <a href="#">Youtube</a>
+                </div>
+                 <img src="images/logo.png" alt="Coolmate Logo" class="footer-logo">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Coolmate. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        let slideInterval;
+
+        showSlide(slideIndex);
+
+        function moveSlide(n) {
+            clearInterval(slideInterval);
+            showSlide(slideIndex += n);
+            startSlideShow(); 
+        }
+
+        function currentSlide(n) {
+             clearInterval(slideInterval); 
+            showSlide(slideIndex = n);
+            startSlideShow(); 
+        }
+
+        function showSlide(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                slides[i].classList.remove("active");
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex - 1].classList.add("active");
+            dots[slideIndex - 1].classList.add("active");
+        }
+
+        function startSlideShow() {
+            slideInterval = setInterval(function() {
+                moveSlide(1);
+            }, 5000); 
+        }
+        startSlideShow();
+
+        const sliderContainer = document.querySelector('.slider-container');
+        sliderContainer.addEventListener('mouseenter', () => clearInterval(slideInterval));
+        sliderContainer.addEventListener('mouseleave', startSlideShow);
+
+    </script>
+
+</body>
+</html>
